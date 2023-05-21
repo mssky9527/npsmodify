@@ -7,10 +7,13 @@
 
 在安装并使用本工具前，**请您务必审慎阅读**、充分理解各条款内容，限制、免责条款或者其他涉及您重大权益的条款可能会以加粗、加下划线等形式提示您重点注意。 除非您已充分阅读、完全理解并接受本协议所有条款，否则，请您不要安装并使用本工具。您的使用行为或者您以其他任何明示或者默示方式表示接受本协议的，即视为您已阅读并同意本协议的约束。
 
-# 工具来源
+# 工具来源及其说明
 ```
 （1）nps通信流量比较稳定，但特征抓的比较死，所以基于原版的nps进行二次开发
 ```
+### 说明
+为了工具的免杀性及其后期修改，本人不公开源码。 **本人承诺，工具无毒，只能简单进行二开**
+
 # 魔改部分
 
 ```
@@ -23,6 +26,8 @@
 
 # 免杀情况
 （这是魔改后的demo上去的，还请各位测试切莫进行☁️测试、沙箱测试、联网测试）
+### 魔改后流量
+魔改后的工具流量就不进行抓取了，需要的话，大家可以自行进行测试。
 ### virustotal
 <img width="1244" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/24f0dc87-e3d9-4ef0-b2fb-c9316b3a473f">
 
@@ -45,6 +50,25 @@
 ## 客户端使用
 
 ### 配置文件启动
+配置文件如下：
+```
+[common]
+server_addr=127.0.0.1:8024
+conn_type=tcp
+vkey=123456
+auto_reconnection=true
+max_conn=1000
+flow_limit=1000
+rate_limit=1000
+web_username=admin
+web_password=123
+crypt=true
+compress=true
+#pprof_addr=0.0.0.0:9999
+disconnect_timeout=60
+
+```
+
 <img width="768" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/efe78eb9-7a45-44ef-aa3c-5d59b7498e50">
 
 ### 命令行启动
