@@ -28,6 +28,11 @@
 （这是魔改后的demo上去的，还请各位测试切莫进行☁️测试、沙箱测试、联网测试）
 ### 魔改后流量
 魔改后的工具流量就不进行抓取了，需要的话，大家可以自行进行测试。
+
+
+### 某社区☁️沙箱（demo版测试）
+<img width="1244" alt="image" src="./images/image-20230521162635386.png">
+
 ### virustotal
 <img width="1244" alt="image" src="./images/image-20230521141510009.png">
 
