@@ -29,13 +29,13 @@
 ### 魔改后流量
 魔改后的工具流量就不进行抓取了，需要的话，大家可以自行进行测试。
 ### virustotal
-<img width="1244" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/24f0dc87-e3d9-4ef0-b2fb-c9316b3a473f">
+<img width="1244" alt="image" src="./images/image-20230521141510009.png">
 
 ### windows defender（静态）
-<img width="1154" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/bdd32ed9-cf3d-46e5-b53b-c37d890e8a80">
+<img width="1154" alt="image" src="./images/image-20230521141351320.png">
 
 ### windows defender（动态）
-<img width="1492" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/50cbabc4-641d-48cd-8828-fbbd21dc1c3e">
+<img width="1492" alt="image" src="./images/image-20230521141429304.png">
 
 
 ### 360、火绒等其他杀软未进行测试
@@ -44,7 +44,7 @@
 # 项目使用
 未进行测试nps服务端的注册，所以目前主要还是 ./nps的方式来运行
 ## 服务端使用
-<img width="802" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/79db09cb-72f7-454b-a2e8-aee2aa25ef5f">
+<img width="802" alt="image" src="./images/image-20230521141541183.png">
 
 
 ## 客户端使用
@@ -69,10 +69,10 @@ disconnect_timeout=60
 
 ```
 
-<img width="768" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/efe78eb9-7a45-44ef-aa3c-5d59b7498e50">
+<img width="768" alt="image" src="./images/image-20230521141600000.png">
 
 ### 命令行启动
-<img width="787" alt="image" src="https://github.com/Q16G/npsmodify/assets/113832601/d62ab71c-1fee-48a9-85e7-35180f0a83e0">
+<img width="787" alt="image" src="./images/image-20230521141615884.png">
 
 
 
